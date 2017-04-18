@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/lib/libmmcamera_ov5693.so:system/lib/libmmcamera_ov5693.so \
     vendor/asus/duma/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/asus/duma/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/asus/duma/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/asus/duma/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/asus/duma/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/asus/duma/proprietary/lib/libqdp.so:system/lib/libqdp.so \
@@ -141,6 +140,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/asus/duma/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/asus/duma/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/asus/duma/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/asus/duma/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
     vendor/asus/duma/proprietary/vendor/firmware/q6.b00:system/vendor/firmware/q6.b00 \
     vendor/asus/duma/proprietary/vendor/firmware/q6.b01:system/vendor/firmware/q6.b01 \
     vendor/asus/duma/proprietary/vendor/firmware/q6.b03:system/vendor/firmware/q6.b03 \
