@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/asus/duma/proprietary/bin/qcks:system/bin/qcks \
     vendor/asus/duma/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/asus/duma/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/asus/duma/proprietary/bin/radish:system/bin/radish \
     vendor/asus/duma/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/asus/duma/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -99,13 +98,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/asus/duma/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/asus/duma/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/asus/duma/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/asus/duma/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/asus/duma/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/asus/duma/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/asus/duma/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/asus/duma/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/asus/duma/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/asus/duma/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/asus/duma/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/asus/duma/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/asus/duma/proprietary/vendor/firmware/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd \
@@ -201,6 +199,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/vendor/lib/libmmstillomx.so:system/vendor/lib/libmmstillomx.so \
     vendor/asus/duma/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/asus/duma/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
+    vendor/asus/duma/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/asus/duma/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/asus/duma/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/asus/duma/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/asus/duma/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
