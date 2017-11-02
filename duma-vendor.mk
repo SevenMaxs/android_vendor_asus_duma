@@ -39,20 +39,19 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/asus/duma/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/asus/duma/proprietary/bin/thermald:system/bin/thermald \
-    vendor/asus/duma/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/duma/proprietary/bin/usbhub:system/bin/usbhub \
+    vendor/asus/duma/proprietary/bin/usbhub_init:system/bin/usbhub_init \
     vendor/asus/duma/proprietary/etc/DxHDCP.cfg:system/etc/DxHDCP.cfg \
-    vendor/asus/duma/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/asus/duma/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/asus/duma/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/asus/duma/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/asus/duma/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/asus/duma/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/duma/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
+    vendor/asus/duma/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/asus/duma/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/duma/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/duma/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/asus/duma/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
-    vendor/asus/duma/proprietary/lib/sensors.duma.so:system/lib/sensors.duma.so \
     vendor/asus/duma/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/asus/duma/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/asus/duma/proprietary/lib/libAKM.so:system/lib/libAKM.so \
@@ -80,15 +79,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/asus/duma/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/asus/duma/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/asus/duma/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/asus/duma/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/asus/duma/proprietary/lib/libmmcamera_mi1040.so:system/lib/libmmcamera_mi1040.so \
     vendor/asus/duma/proprietary/lib/libmmcamera_ov5693.so:system/lib/libmmcamera_ov5693.so \
+    vendor/asus/duma/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/asus/duma/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/asus/duma/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/asus/duma/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/asus/duma/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/asus/duma/proprietary/lib/libqdp.so:system/lib/libqdp.so \
+    vendor/asus/duma/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/asus/duma/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
     vendor/asus/duma/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/asus/duma/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
@@ -96,13 +96,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
     vendor/asus/duma/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
     vendor/asus/duma/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/asus/duma/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/asus/duma/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/asus/duma/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/asus/duma/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/asus/duma/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
+    vendor/asus/duma/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/asus/duma/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/asus/duma/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/asus/duma/proprietary/lib/sensors.duma.so:system/lib/sensors.duma.so \
     vendor/asus/duma/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/asus/duma/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/asus/duma/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
@@ -166,10 +166,15 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/asus/duma/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/asus/duma/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/asus/duma/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
+    vendor/asus/duma/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/asus/duma/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
+    vendor/asus/duma/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/asus/duma/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
     vendor/asus/duma/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/asus/duma/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/asus/duma/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/asus/duma/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/asus/duma/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/asus/duma/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/asus/duma/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/asus/duma/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
@@ -181,6 +186,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/asus/duma/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/asus/duma/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+    vendor/asus/duma/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/asus/duma/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/asus/duma/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/asus/duma/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/asus/duma/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
@@ -191,8 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/asus/duma/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/asus/duma/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/asus/duma/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/asus/duma/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/asus/duma/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/asus/duma/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/asus/duma/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
@@ -201,8 +206,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/asus/duma/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/asus/duma/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
-    vendor/asus/duma/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/asus/duma/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/asus/duma/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/asus/duma/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/asus/duma/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/asus/duma/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
